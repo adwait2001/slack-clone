@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from 'react-router-dom';
+import UserProvider from './providers/UserProvider'
 
 ReactDOM.render(
   <React.StrictMode>
+    <UserProvider data="1">
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
+    </UserProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,14 @@
+Wireframing :: Rough Sketch of application
+Functionality ::
+    Sign IN
+    lOG IN
+    cREATE A cHANNEL
+    SEND MESSAGE IN A cHANNEL
+    JOIN A cHANNEL
+    SEARCH A cHANNEL
+DATA ::
+    USERS
+    CHANNELS 
+    MESSAGES
+UI::
+    
